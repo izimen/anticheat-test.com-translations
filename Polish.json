@@ -10,10 +10,10 @@
   "scoreboard.engine.correct": "Strefa jest poprawna",
   "scoreboard.engine.incorrect": "Strefa jest niepoprawna",
 
-  "scoreboard.sprinting": "Sprintowanie",
+  "scoreboard.sprinting": "Sprint",
   "scoreboard.sneaking": "Kucanie",
-  "scoreboard.attacking": "Atakowanie",
-  "scoreboard.blocking": "Blokowanie",
+  "scoreboard.attacking": "Atak",
+  "scoreboard.blocking": "Blok",
 
   "scoreboard.fight": "Walka",
   "scoreboard.arena": "Arena",
@@ -24,12 +24,12 @@
   "yes": "Tak",
   "no": "Nie",
 
-  "true": "Prawda",
-  "false": "Fałsz",
+  "true": "Tak",
+  "false": "Nie",
 
-  "tab.rank": "Ranking",
-  "tab.online": "Aktywny",
-  "tab.players": "Gracze",
+  "tab.rank": "Ranga",
+  "tab.online": "Aktywni",
+  "tab.players": "Graczy",
   "tab.player": "Gracz",
   "tab.cpu": "Procesor",
   "tab.memory": "Pamięć",
@@ -40,8 +40,8 @@
   "gui.playerSettings": "Ustawienia gracza",
   "gui.warps": "Warpy",
 
-  "gui.warps.click": "Kliknij, aby przeteleportować się",
-
+  "gui.warps.click": "Kliknij, aby przeteleportować się na",
+  
   "gui.playerSettings.modify": "Kliknij, aby zmienić: %s",
   "gui.playerSettings.disabled": "Wyłączone",
   "gui.playerSettings.enabled": "Włączone",
@@ -50,13 +50,13 @@
 
   "gui.chest.test.item": "Test Chest Stealer",
 
-  "gui.anticheat.title": "Wybór Antycheata",
-  "gui.anticheat.vote": "Głosowanie Antycheata",
+  "gui.anticheat.title": "Wybór AC",
+  "gui.anticheat.vote": "Głosowanie AC",
   "gui.anticheat.item.author": "Autor",
   "gui.anticheat.item.description": "Opis",
   "gui.anticheat.item.version": "Wersja",
-  "gui.anticheat.item.reconnect_required": "Przy wyborze tego Antycheata musisz wejść ponownie na serwer",
-  "gui.anticheat.item.sandbox": "Ten Antycheat działa w trybie sandbox",
+  "gui.anticheat.item.reconnect_required": "Przy wyborze tego AC musisz wejść ponownie na serwer",
+  "gui.anticheat.item.sandbox": "Ten AC działa w trybie sandbox",
   "gui.anticheat.item.sandbox.line2": "do poprawnego działania może być wymagane ponowne wejście na serwer.",
   "gui.anticheat.item.voting": "Głosy",
 
@@ -79,7 +79,7 @@
   "player.settings.potions_description": "Włącz / Wyłącz efekty mikstur",
 
   "player.settings.hitbox": "Visual Hitbox Debugger",
-  "player.settings.hitbox_description": "Włącz / Wyłącz visual hit-boxes",
+  "player.settings.hitbox_description": "Włącz / Wyłącz visual hit-boxy",
 
   "player.settings.raytrace": "Visual RayTrace Debugger",
   "player.settings.raytrace.description": "Włącz / Wyłącz visual raytrace debugger",
@@ -93,28 +93,28 @@
   "anticheat.kick.requires_reconnect_warning_2": "wymaga ponownego połączenia.",
 
   "action.title.server.position": "Server Position (S08)",
-  "action.title.server.seconds": "sekundy",
+  "action.title.server.seconds": "sek",
   "action.title.server.tick": "tick",
   "action.title.server.ticks": "ticks",
 
   "disguised.join.message": "Nadal jesteś ukryty za",
 
   "pvp.enabled": "PvP zostało włączone",
-  "pvp.disabled": "PvP is now disabled",
+  "pvp.disabled": "PvP zostało wyłączone",
   "pvp.toggled_enable": "PvP zostało włączone",
   "pvp.wait": "Odczekaj chwilę...",
   "pvp.countdown": "PvP zostanie włączone za",
-  "pvp.countdown.second": "sekunda",
-  "pvp.countdown.seconds": "sekundy",
-  "pvp.reset.items": "Wszystkie zenchantowane przedmioty w twoim ekwipunku zostaną zresetowane po włączeniu trybu PvP (wyjdź, jeśli nie chcesz, aby były resetowane)",
+  "pvp.countdown.second": "sek",
+  "pvp.countdown.seconds": "sek",
+  "pvp.reset.items": "Wszystkie zenchantowane przedmioty w twoim ekwipunku zostaną zresetowane po włączeniu trybu PvP (wyjdź, jeśli nie chcesz, aby zostały zresetowane)",
   "pvp.death.message": "został zabity przez",
 
   "alerts.filter": "Alerty są domyślnie filtrowane, aby zobaczyć typ alertów wszystkich osób",
 
   "join.message": "Użyj komendy /help, aby otrzymać więcej możliwości",
-  "discord.message": "Zaproszenie na discord",
+  "discord.message": "Zaproszenie na discorda",
 
-  "damage.action": "Zadałeś obrażenia",
+  "damage.action": "Zadane obrażenia:",
   "damage.action.critical.hit": "[Krytyczny Hit]",
 
   "civ.break.test": "Zniszczyłeś blok",
@@ -128,7 +128,7 @@
 
   "chat.disabled": "Czat jest wyłączony",
   "chat.throttle": "Odczekaj chwilę przed wysłaniem koljnej wiadomości.",
-  "chat.chain": "Nie łącz wiadomości na czacie.",
+  "chat.chain": "Nie wysyłaj tej samej wiadomości.",
 
   "anticheat.kick.title": "Zostałbyś wyrzucony!",
   "anticheat.kick.vulcan.transaction": "Wyyrzucenie za Transaction",
@@ -143,10 +143,10 @@
   "anticheat.kick.vulcan.desync": "Desynchronizacja",
   "anticheat.kick.vulcan.desync_2": "Vulcan wyrzuciłby cię za desynchronizację",
 
-  "chest.test.message_1": "To zajęło",
-  "chest.test.message_2": "aby ukraść przedmioty ze skrzyni",
-  "chest.test.message_3": "poza",
-  "chest.test.message_4": "przedmioty zostały odebrane",
+  "chest.test.message_1": "W czasie",
+  "chest.test.message_2": "wyjąłeś przedmioty ze skrzyni",
+  "chest.test.message_3": "z",
+  "chest.test.message_4": "zostało wyjętycht",
 
   "speed.test.start.title.1": "START!",
   "speed.test.start.title.2": "Biegnij do samego końca, aby uzyskać wynik",
@@ -158,7 +158,7 @@
   "speed.test.totalseconds": "Czas",
 
   "scaffold.test.enter": "W tym miejscu możesz stawiać bloki",
-  "scaffold.test.enter_2": "Użyj komendy /items, aby dostać przedmioty",
+  "scaffold.test.enter_2": "Użyj komendy /items, aby odebrać przedmioty",
   "scaffold.test.exit": "W tym miejscu nie możesz stawiać bloków",
 
   "velocity.test.apply": "Test velocity",
@@ -168,19 +168,19 @@
   "command.help.description.warp": "Możesz podać nazwę dokładnego warpu, aby się przeteleportować",
   "command.help.description.items": "Lista przedmiotów do użycia",
   "command.help.description.enchant": "Możliwość enchantu każdego przedmiotu",
-  "command.help.description.anticheat": "Wybór Antycheata",
+  "command.help.description.anticheat": "Wybór AC",
   "command.help.description.ac": "To samo co /anticheat",
   "command.help.description.heal": "Reset poziomu głodu i życia",
   "command.help.description.settings": "Lista ustawień",
   "command.help.description.clear": "Czyści twój ekwipunek",
   "command.help.description.tagcolor": "Zmień kolor swojego nicku na tabie",
   "command.help.description.tc": "To samo co /tagcolor",
-  "command.help.description.language": "Changes server language",
+  "command.help.description.language": "Zmień język",
 
   "gui.select": "Kliknij, aby wybrać",
-  "anticheat.message.failed": "failed",
+  "anticheat.message.failed": "Błąd!",
 
   "credits": [
-    "izimen"
+    "izimen (with help fuxion`s mom)"
   ]
 }
